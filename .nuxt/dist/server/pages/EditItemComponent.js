@@ -4239,7 +4239,7 @@ module.exports = {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return search; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return deleteItem; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return updateItem; });
-const URL = 'http://api.dongdinh.com';
+const URL = 'http://api.dongdinh.com/api';
 
 const axios = __webpack_require__(6).default;
 

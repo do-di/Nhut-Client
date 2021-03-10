@@ -194,7 +194,7 @@ export default {
    async fetch() {
        var vm = this;
       this.branches = await fetch(
-        'http://api.dongdinh.com/getAllBranches'
+        'http://api.dongdinh.com/api/getAllBranches'
       ).then(res => res.json())
 
       const data = await fetch(

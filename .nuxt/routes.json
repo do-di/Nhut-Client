@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Component0",
+    "path": "/Component0",
+    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/Component0.vue",
+    "chunkName": "pages/Component0",
+    "_name": "_e1c9604a"
+  },
+  {
+    "name": "EditItemComponent",
+    "path": "/EditItemComponent",
+    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/EditItemComponent.vue",
+    "chunkName": "pages/EditItemComponent",
+    "_name": "_0cb7f1e8"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_49f7caa2"
+  },
+  {
+    "name": "ProductComponent",
+    "path": "/ProductComponent",
+    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/ProductComponent.vue",
+    "chunkName": "pages/ProductComponent",
+    "_name": "_e2d79f54"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6224decc"
+  }
+]

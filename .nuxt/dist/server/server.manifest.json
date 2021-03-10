@@ -1,0 +1,29 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/logo.js": "components/logo.js",
+    "components/search-component.js": "components/search-component.js",
+    "components/source.js": "components/source.js",
+    "components/update-component.js": "components/update-component.js",
+    "components/vuetify-logo.js": "components/vuetify-logo.js",
+    "pages/Component0.js": "pages/Component0.js",
+    "pages/EditItemComponent.js": "pages/EditItemComponent.js",
+    "pages/ProductComponent.js": "pages/ProductComponent.js",
+    "pages/index.js": "pages/index.js",
+    "pages/inspire.js": "pages/inspire.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/logo.js": "components/logo.js.map",
+    "components/search-component.js": "components/search-component.js.map",
+    "components/source.js": "components/source.js.map",
+    "components/update-component.js": "components/update-component.js.map",
+    "components/vuetify-logo.js": "components/vuetify-logo.js.map",
+    "pages/Component0.js": "pages/Component0.js.map",
+    "pages/EditItemComponent.js": "pages/EditItemComponent.js.map",
+    "pages/ProductComponent.js": "pages/ProductComponent.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/inspire.js": "pages/inspire.js.map",
+    "server.js": "server.js.map"
+  }
+}

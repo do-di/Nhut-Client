@@ -1,0 +1,17 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "SearchComponent": {
+    "description": "Auto imported from components/SearchComponent.vue"
+  },
+  "Source": {
+    "description": "Auto imported from components/Source.vue"
+  },
+  "UpdateComponent": {
+    "description": "Auto imported from components/UpdateComponent.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}

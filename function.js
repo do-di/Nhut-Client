@@ -1,4 +1,4 @@
-const URL = 'http://api.dongdinh.com';
+const URL = 'http://api.dongdinh.com/api';
 
 const axios = require('axios').default;
 

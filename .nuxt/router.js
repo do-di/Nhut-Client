@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _e1c9604a = () => interopDefault(import('../pages/Component0.vue' /* webpackChunkName: "pages/Component0" */))
-const _0cb7f1e8 = () => interopDefault(import('../pages/EditItemComponent.vue' /* webpackChunkName: "pages/EditItemComponent" */))
-const _49f7caa2 = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
-const _e2d79f54 = () => interopDefault(import('../pages/ProductComponent.vue' /* webpackChunkName: "pages/ProductComponent" */))
-const _6224decc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _36bed803 = () => interopDefault(import('..\\pages\\Component0.vue' /* webpackChunkName: "pages/Component0" */))
+const _1a8b2680 = () => interopDefault(import('..\\pages\\EditItemComponent.vue' /* webpackChunkName: "pages/EditItemComponent" */))
+const _dc15190c = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages/inspire" */))
+const _436afa7e = () => interopDefault(import('..\\pages\\ProductComponent.vue' /* webpackChunkName: "pages/ProductComponent" */))
+const _2f6f8f72 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -23,23 +23,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/Component0",
-    component: _e1c9604a,
+    component: _36bed803,
     name: "Component0"
   }, {
     path: "/EditItemComponent",
-    component: _0cb7f1e8,
+    component: _1a8b2680,
     name: "EditItemComponent"
   }, {
     path: "/inspire",
-    component: _49f7caa2,
+    component: _dc15190c,
     name: "inspire"
   }, {
     path: "/ProductComponent",
-    component: _e2d79f54,
+    component: _436afa7e,
     name: "ProductComponent"
   }, {
     path: "/",
-    component: _6224decc,
+    component: _2f6f8f72,
     name: "index"
   }],
 

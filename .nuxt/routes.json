@@ -2,36 +2,36 @@
   {
     "name": "Component0",
     "path": "/Component0",
-    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/Component0.vue",
+    "component": "D:\\\\deploy\\\\Nhut-Client\\\\pages\\\\Component0.vue",
     "chunkName": "pages/Component0",
-    "_name": "_e1c9604a"
+    "_name": "_36bed803"
   },
   {
     "name": "EditItemComponent",
     "path": "/EditItemComponent",
-    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/EditItemComponent.vue",
+    "component": "D:\\\\deploy\\\\Nhut-Client\\\\pages\\\\EditItemComponent.vue",
     "chunkName": "pages/EditItemComponent",
-    "_name": "_0cb7f1e8"
+    "_name": "_1a8b2680"
   },
   {
     "name": "inspire",
     "path": "/inspire",
-    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/inspire.vue",
+    "component": "D:\\\\deploy\\\\Nhut-Client\\\\pages\\\\inspire.vue",
     "chunkName": "pages/inspire",
-    "_name": "_49f7caa2"
+    "_name": "_dc15190c"
   },
   {
     "name": "ProductComponent",
     "path": "/ProductComponent",
-    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/ProductComponent.vue",
+    "component": "D:\\\\deploy\\\\Nhut-Client\\\\pages\\\\ProductComponent.vue",
     "chunkName": "pages/ProductComponent",
-    "_name": "_e2d79f54"
+    "_name": "_436afa7e"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/dodi/Code/Nuxtjs/dongdinh.com/nuxt-first-app/pages/index.vue",
+    "component": "D:\\\\deploy\\\\Nhut-Client\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_6224decc"
+    "_name": "_2f6f8f72"
   }
 ]

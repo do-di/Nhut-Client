@@ -4373,15 +4373,15 @@ function shouldScrollToTop(route) {
 
 
 
-const _e1c9604a = () => interopDefault(__webpack_require__.e(/* import() | pages/Component0 */ 6).then(__webpack_require__.bind(null, 152)));
+const _36bed803 = () => interopDefault(__webpack_require__.e(/* import() | pages/Component0 */ 6).then(__webpack_require__.bind(null, 152)));
 
-const _0cb7f1e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/EditItemComponent */ 7).then(__webpack_require__.bind(null, 149)));
+const _1a8b2680 = () => interopDefault(__webpack_require__.e(/* import() | pages/EditItemComponent */ 7).then(__webpack_require__.bind(null, 149)));
 
-const _49f7caa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/inspire */ 10).then(__webpack_require__.bind(null, 153)));
+const _dc15190c = () => interopDefault(__webpack_require__.e(/* import() | pages/inspire */ 10).then(__webpack_require__.bind(null, 153)));
 
-const _e2d79f54 = () => interopDefault(__webpack_require__.e(/* import() | pages/ProductComponent */ 8).then(__webpack_require__.bind(null, 150)));
+const _436afa7e = () => interopDefault(__webpack_require__.e(/* import() | pages/ProductComponent */ 8).then(__webpack_require__.bind(null, 150)));
 
-const _6224decc = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 151)));
+const _2f6f8f72 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 151)));
 
 const emptyFn = () => {};
 
@@ -4394,23 +4394,23 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/Component0",
-    component: _e1c9604a,
+    component: _36bed803,
     name: "Component0"
   }, {
     path: "/EditItemComponent",
-    component: _0cb7f1e8,
+    component: _1a8b2680,
     name: "EditItemComponent"
   }, {
     path: "/inspire",
-    component: _49f7caa2,
+    component: _dc15190c,
     name: "inspire"
   }, {
     path: "/ProductComponent",
-    component: _e2d79f54,
+    component: _436afa7e,
     name: "ProductComponent"
   }, {
     path: "/",
-    component: _6224decc,
+    component: _2f6f8f72,
     name: "index"
   }],
   fallback: false
@@ -4603,7 +4603,7 @@ var error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "bfedb7fe",
-  "6a34816d"
+  "73fa73ac"
   
 )
 
@@ -4913,7 +4913,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "f7e1ec50"
+  "5fa4ea02"
   
 )
 
@@ -4955,7 +4955,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   default_injectStyles,
   "6a35fde1",
-  "1937c1e6"
+  "8af0693a"
   
 )
 
@@ -6818,13 +6818,13 @@ external_vue_default.a.use(external_v_tooltip_default.a);
 
 /* Plugins */
 
- // Source: ./components/plugin.js (mode: 'all')
+ // Source: .\\components\\plugin.js (mode: 'all')
 
- // Source: ./vuetify/plugin.js (mode: 'all')
+ // Source: .\\vuetify\\plugin.js (mode: 'all')
 
- // Source: ./axios.js (mode: 'all')
+ // Source: .\\axios.js (mode: 'all')
 
- // Source: ../plugins/v-tooltip.js (mode: 'all')
+ // Source: ..\\plugins\\v-tooltip.js (mode: 'all')
 // Component: <ClientOnly>
 
 external_vue_default.a.component(external_vue_client_only_default.a.name, external_vue_client_only_default.a); // TODO: Remove in Nuxt 3: <NoSsr>
@@ -7210,9 +7210,7 @@ const createNext = ssrContext => opts => {
     app,
     router,
     store
-  } = await createApp(ssrContext, { ...ssrContext.runtimeConfig.public,
-    ...ssrContext.runtimeConfig.private
-  });
+  } = await createApp(ssrContext, ssrContext.runtimeConfig.private);
 
   const _app = new external_vue_default.a(app); // Add ssr route path to nuxt context so we can account for page navigation between ssr and csr
 

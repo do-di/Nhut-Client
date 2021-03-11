@@ -198,7 +198,7 @@ export default {
       ).then(res => res.json())
 
       const data = await fetch(
-        'http://api.dongdinh.com/api/searchProduct/',{method:'POST'}
+        'http://api.dongdinh.com/api/searchProduct',{method:'POST'}
       ).then(res=>res.json())
 
        data.forEach(element => {
